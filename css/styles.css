@@ -1,0 +1,61 @@
+/**
+ * file: styles.css
+ **/
+
+/*define: fonts, colors etc.*/
+ :root {
+    /*colours*/
+    --orange: rgb(225, 162, 67);
+    --white: rgb(252, 246, 246);
+    --green: rgb(52, 83, 52);
+
+    /*fonts*/
+    --reading: Arial, Helvetica, sans-serif;
+    --headings: "Times New Roman", Times, serif
+ }
+
+ /* ids are called like this*/
+ body {
+    background-color: var(--white);
+    font-family: var(--reading);
+ }
+
+ h1 {
+    font-family: var(--headings);
+ }
+
+ #lorem {
+    width: 33%;
+     }
+
+     /* flexbox sample*/
+
+.flexMe {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+
+
+.responsiveImg {
+    width: 100%;
+    height: auto;
+}
+
+ .green {
+        background-color: white;
+
+        /* margins */
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+        /* padding */
+        padding: 20px 20px 20px 20px;
+
+        /*border*/
+        border: 10px solid var(--orange);
+
+     }
